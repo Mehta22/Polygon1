@@ -8,7 +8,7 @@
 require('dotenv').config();
 const { ethers } = require("hardhat");
 
-const nftAddress = "0x5FF12245A118fb3067267C92E861D8F8DA648106";
+const nftAddress = "0xAB9D9C9a7Df207Be371b0497641d5DB83DEf4F04";
 const networkAddress = 'https://polygon-amoy-bor-rpc.publicnode.com';
 const privateKey = process.env.PRIVATE_KEY;
 const provider = new ethers.providers.JsonRpcProvider(networkAddress);
